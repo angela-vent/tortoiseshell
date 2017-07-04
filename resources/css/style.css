@@ -165,16 +165,19 @@ nav a{
 footer{
   margin-top: 5rem;
   background-color: azure;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  /*display: flex;
+  flex-wrap: nowrap;*/
 }
 
 footer img{
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+  display: inline-block;
 }
 
 footer h5{
   padding: 4rem 0 4rem 0;
+  /*width: 500rem;
+  flex-wrap: nowrap;*/
+  display: inline-block;
 }
