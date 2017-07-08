@@ -273,7 +273,8 @@ footer h5{
 
   .box h3{
     font-size: 1rem;
-    margin: 1rem auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .icons{
@@ -295,7 +296,7 @@ footer h5{
 
   .columns{
     display: block;
-    width: 100%
+    /*width: 100%*/
   }
 
   .column{
@@ -304,7 +305,7 @@ footer h5{
   }
 
   .column h4{
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     margin: 0;
   }
