@@ -68,7 +68,7 @@ nav a{
   color:white;
 }
 
-.small-screen{
+.smallmenu{
   display: none;
 }
 
@@ -193,16 +193,17 @@ footer h5{
 @media only screen and (max-width: 768px){
 
   .container{
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .header{
     height: 22rem;
-    background-repeat: no-repeat;
-    background-position: right;
-    /*background-size: cover;
-    /*overflow: hidden;*/
-    width: 100%;
+    /*background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;*/
+    width: auto;
   }
 
   .banner{
@@ -210,8 +211,14 @@ footer h5{
     top: 0;
   }
 
+  .smallmenu{
+   display: none;
+  }
+
   .box{
     margin: 5rem 2rem 0 auto;
+    justify-content: flex-end;
+    width: 25rem;
   }
 
   .box h3{
@@ -227,6 +234,7 @@ footer h5{
 
   .container{
     width: 100%;
+    margin: 0 auto;
   }
 
   .header{
@@ -234,8 +242,21 @@ footer h5{
     background-position: 20%;
   }
 
-  .big-screen{
+  .banner{
+    position: relative;
+    top: 0;
+  }
+
+  .left h5{
     display: none;
+  }
+
+  .bigmenu{
+    display: none;
+  }
+
+  .smallmenu{
+    color: white;
   }
 
   .banner{
@@ -245,6 +266,7 @@ footer h5{
 
   .box{
     margin-top: 9rem;
+    text-align: center;
   }
 
   .box h3{
@@ -255,11 +277,16 @@ footer h5{
   .icons{
     margin: 3.77rem auto;
     font-size: 0.77rem;
+    display: block;
   }
 
   .rule{
     margin-top: 1.54rem;
     margin-bottom: 1.54rem;
+  }
+
+  .columns{
+    display: block;
   }
 
   .column{
