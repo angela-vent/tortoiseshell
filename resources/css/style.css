@@ -114,7 +114,7 @@ nav a{
   width: 5rem;
   color: black;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   /*text-align: center;*/
 
 }
@@ -190,14 +190,14 @@ footer h5{
 
 /* -- MEDIA QUERIES FOR TABLETS -- */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
 
   .container{
     max-width: 100%;
     margin: 0 auto;
   }
 
-  .header{
+  header{
     height: 22rem;
     /*background-repeat: no-repeat;
     background-position: center;
@@ -230,14 +230,14 @@ footer h5{
 
 /* -- MEDIA QUERIES FOR PHONES -- */
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 580px){
 
   .container{
     max-width: 100%;
     margin: 0 auto;
   }
 
-  .header{
+  header{
     height: 17rem;
     background-position: 20%;
   }
