@@ -257,7 +257,7 @@ footer h5{
 
   .smallmenu{
     color: white;
-    display: run-in;
+    display: block;
   }
 
   .banner{
@@ -287,25 +287,26 @@ footer h5{
     margin-bottom: 1.54rem;
   }
 
-  .paper{
-    margin: 0 auto;
-  }
-
+  .paper,
+  .rule,
   .truck{
     margin: 0 auto;
   }
 
   .columns{
     display: block;
+    width: 100%
   }
 
   .column{
     width: 100%;
+    display: block;
   }
 
   .column h4{
     width: 100%;
     text-align: center;
+    margin: 0;
   }
 
   .column p{
